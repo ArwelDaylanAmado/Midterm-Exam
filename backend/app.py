@@ -5,7 +5,7 @@ import sqlite3
 app = Flask(__name__)
 CORS(app, origins=[
     "http://localhost:5173",
-    "https://midterm-exam-opal.vercel.app"
+    "https://midterm-exam-r2og.vercel.app"
 ])
 
 DB_FILE = "hsr_characters.db"
