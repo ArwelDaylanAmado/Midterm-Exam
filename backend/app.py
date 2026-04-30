@@ -3,7 +3,10 @@ from flask_cors import CORS
 import sqlite3
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[
+    "http://localhost:5173",
+    "https://midterm-exam-opal.vercel.app"
+])
 
 DB_FILE = "hsr_characters.db"
 
