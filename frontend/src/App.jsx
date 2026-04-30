@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const API_URL = import.meta.env.VITE_API_URL;
-console.log("API URL:", API_URL);
+console.log("API:", API_URL);
 
 function App() {
   const [characters, setCharacters] = useState([]);
